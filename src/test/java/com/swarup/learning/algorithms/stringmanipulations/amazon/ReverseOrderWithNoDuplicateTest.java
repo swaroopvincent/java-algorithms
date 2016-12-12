@@ -24,7 +24,7 @@ public class ReverseOrderWithNoDuplicateTest {
     @Test
     public void stringWithDuplicate() {
         String input = "abbccc";
-        System.out.println(objectUnderTest.solution(input));
+        assertEquals("c3b2a1", objectUnderTest.solution(input));
     }
 
 }
